@@ -1,4 +1,7 @@
 #                                                  BANK MANAGEMENT SYSTEM
+
+# PASSWORD FOR THE PROGRAM : 123456
+
 Build | Code Quality | Unity | 
 ------|----------|-------|
 hello |hello2|hello3
