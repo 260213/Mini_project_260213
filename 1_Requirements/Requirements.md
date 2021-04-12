@@ -59,4 +59,4 @@ Calculating interest
 | LR04 | Editing details of an existing accounts | HR02 
 | LR05 | Calculating the interest generated | HR02 
 | LR06 | Viewing customer list| HR02 
-| LR05 | Deleting existing account | HR05 
+| LR05 | Deleting existing account | HR02
