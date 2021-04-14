@@ -4,7 +4,7 @@
 
 Build | Codacy | Unity Testing| CPP check|Code Coverage
 ------|----------|-------|---------|---------
-[![C/C++ CI - Build Status](https://github.com/260213/Mini_project_260213/actions/workflows/CIBuild.yml/badge.svg)](https://github.com/260213/Mini_project_260213/actions/workflows/CIBuild.yml)|codacy|[![Unit Testing - Unity](https://github.com/260213/Mini_project_260213/actions/workflows/unity.yml/badge.svg)](https://github.com/260213/Mini_project_260213/actions/workflows/unity.yml)|unity|
+[![C/C++ CI - Build Status](https://github.com/260213/Mini_project_260213/actions/workflows/CIBuild.yml/badge.svg)](https://github.com/260213/Mini_project_260213/actions/workflows/CIBuild.yml)|codacy|[![Unit Testing - Unity](https://github.com/260213/Mini_project_260213/actions/workflows/unity.yml/badge.svg)](https://github.com/260213/Mini_project_260213/actions/workflows/unity.yml)|unity|[![CI-Coverage](https://github.com/260213/Mini_project_260213/actions/workflows/gcov.yml/badge.svg)](https://github.com/260213/Mini_project_260213/actions/workflows/gcov.yml)
 
 ## Folder Structure
 Folder             | Description
