@@ -4,7 +4,7 @@
 
 Build | Codacy | Unity Testing| CPP check|Code Coverage
 ------|----------|-------|---------|---------
-Build|codacy|unity|unity|
+[![C/C++ CI - Build Status](https://github.com/260213/Mini_project_260213/actions/workflows/CIBuild.yml/badge.svg)](https://github.com/260213/Mini_project_260213/actions/workflows/CIBuild.yml)|codacy|unity|unity|
 
 ## Folder Structure
 Folder             | Description
