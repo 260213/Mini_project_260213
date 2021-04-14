@@ -1,9 +1,9 @@
-#include"bank_test.h"
+
 #include"unity.h"
-#include<stdio.h>
+#include"unity_internals.h"
 #include"interest.h"
 
-
+//Required by unity framework
 void setUp(){}
 void tearDown(){}
 
@@ -17,9 +17,10 @@ void test_int(void)
 
 }
 
-int test_main()
+int main()
 {
     UNITY_BEGIN();
+    
     RUN_TEST(test_int);
 
     return UNITY_END();
