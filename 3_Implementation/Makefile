@@ -1,5 +1,5 @@
 # Name of executable file
-PROJECT_NAME = bank.exe
+PROJECT_NAME = bank
 
 # All source files
  
@@ -18,13 +18,25 @@ bank.c\
 
 INC = -Iinc\
 
+ifdef OS
+	RM = del /q
+	FixPath = $(subst /,\,$1)
+	EXEC = exe
+else
+	ifeq ($(shell uname), Linux)
+		RM = rm -rf
+		FixPath = $1
+		EXEC = out
+	endif
+endif
+
 $(PROJECT_NAME): $(SRC)
-	gcc $(INC) $(SRC)  -o bank.exe
+	gcc $(INC) $(SRC)  -o bank.$(EXEC)
 
 #run command to run the executable file
 
-run: $(PROJECT_NAME)
-	$(PROJECT_NAME)
+run: $(PROJECT_NAME).$(EXEC)
+	$(PROJECT_NAME).$(EXEC)
 
 
 
