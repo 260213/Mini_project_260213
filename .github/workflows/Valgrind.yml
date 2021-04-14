@@ -21,4 +21,4 @@ jobs:
       run: make test -C 3_Implementation
       
     - name: Valgrid
-      run: valgrind ./3_Implementation/build/bank_test.out
+      run: valgrind ./3_Implementation/build/Test_bank.out
