@@ -50,11 +50,11 @@ INC = -Iinc\
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).$(EXEC)
 
 all: $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).$(EXEC)
+	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT)
 
 #run command to run the executable file
 run:all
-	./$(PROJECT_OUTPUT).$(EXEC)
+	./$(PROJECT_OUTPUT)
 
 # Build and run the unit tests
 test:$(BUILD)
