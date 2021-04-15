@@ -1,6 +1,5 @@
 #                                                  BANK MANAGEMENT SYSTEM
 
-### PASSWORD FOR THE PROGRAM : 123456
 
 Build | Codacy | Unity Testing| Static & Dynamic Analysis|Code Coverage
 ------|----------|-------|---------|---------
@@ -12,6 +11,15 @@ Folder             | Description
 `1_Requirements`   | Documents detailing requirements
 `2_Architecture`   | Documents specifying design details
 `3_Implementation` | All code and documentation
-`4_Test_plan`      | Documents with test plans and procedures
-`5_Images`         | Images of output
+`4_TestPlanAndOutput`      | Documents with test plans and procedures
+`5_Report`         | Report
+`6_ImagesAndVideos`| Images of output
 
+## Integrated Tools to GitHub
+*  [Codacy](https://www.codacy.com/)
+
+## GitHub Actions
+* Build using Make for CI
+* Unit tests with Cunit
+* Static code analysis using cppcheck
+* Dynamic Code analysis using Valgrind
