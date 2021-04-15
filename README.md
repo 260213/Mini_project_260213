@@ -1,6 +1,5 @@
 #                                                  BANK MANAGEMENT SYSTEM
 
-### PASSWORD FOR THE PROGRAM : 123456
 
 Build | Codacy | Unity Testing| Static & Dynamic Analysis|Code Coverage
 ------|----------|-------|---------|---------
